@@ -1,0 +1,5 @@
+module.export = {
+    __esModule: true,
+    default: 'test-file-stub',
+    
+}
