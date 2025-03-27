@@ -109,11 +109,3 @@ const TodoList: React.FC = () => {
 };
 
 export default TodoList
-      {/* <div className="py-1">
-        <label htmlFor="filter">Filter:</label>
-        <select name="filter" id="filter" value={filter} onChange={handleFilter}>
-          <option value="all">All</option>
-          <option value="active">Active</option>
-          <option value="completed">Completed</option>
-        </select>
-      </div> */}

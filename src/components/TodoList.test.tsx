@@ -1,8 +1,6 @@
-import React from 'react';
 import { render, fireEvent, waitFor, RenderResult } from '@testing-library/react';
 import TodoList from './TodoList';
-import { TodosData, TodosFilterType } from '../inputType';
-import {screen} from '@testing-library/dom'
+
 
 function addTodo(component:RenderResult) {
   const { getByText, getByPlaceholderText} = component;
